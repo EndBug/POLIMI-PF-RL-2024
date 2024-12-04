@@ -3,8 +3,9 @@
 !*/
 !.gitignore
 
-# Do not ignore docs folder
+# Do not ignore docs
 !/docs/**/*
+!README.md
 
 # VIVADO
 # Source files:
