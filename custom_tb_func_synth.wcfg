@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="custom_tb_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="custom_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="331.500 ns"></ZoomStartTime>
+      <ZoomEndTime time="1,229.001 ns"></ZoomEndTime>
+      <Cursor1Time time="1,154.417 ns"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="236"></NameColumnWidth>
+      <ValueColumnWidth column_width="94"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="16" />
+   <wave_markers>
+      <marker time="360000" label="" />
+      <marker time="970100" label="" />
+   </wave_markers>
+   <wvobject fp_name="/custom_tb/tb_clk" type="logic">
+      <obj_property name="ElementShortName">tb_clk</obj_property>
+      <obj_property name="ObjectShortName">tb_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/tb_rst" type="logic">
+      <obj_property name="ElementShortName">tb_rst</obj_property>
+      <obj_property name="ObjectShortName">tb_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/tb_start" type="logic">
+      <obj_property name="ElementShortName">tb_start</obj_property>
+      <obj_property name="ObjectShortName">tb_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/tb_done" type="logic">
+      <obj_property name="ElementShortName">tb_done</obj_property>
+      <obj_property name="ObjectShortName">tb_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/tb_add" type="array">
+      <obj_property name="ElementShortName">tb_add[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_add[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/tb_k" type="array">
+      <obj_property name="ElementShortName">tb_k[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_k[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/tb_o_mem_addr" type="array">
+      <obj_property name="ElementShortName">tb_o_mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_o_mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/tb_o_mem_data" type="array">
+      <obj_property name="ElementShortName">tb_o_mem_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_o_mem_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/tb_i_mem_data" type="array">
+      <obj_property name="ElementShortName">tb_i_mem_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_i_mem_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/tb_o_mem_we" type="logic">
+      <obj_property name="ElementShortName">tb_o_mem_we</obj_property>
+      <obj_property name="ObjectShortName">tb_o_mem_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/tb_o_mem_en" type="logic">
+      <obj_property name="ElementShortName">tb_o_mem_en</obj_property>
+      <obj_property name="ObjectShortName">tb_o_mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/scenario_input" type="array">
+      <obj_property name="ElementShortName">scenario_input[0:11]</obj_property>
+      <obj_property name="ObjectShortName">scenario_input[0:11]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/scenario_full" type="array">
+      <obj_property name="ElementShortName">scenario_full[0:11]</obj_property>
+      <obj_property name="ObjectShortName">scenario_full[0:11]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/SCENARIO_LENGTH" type="other">
+      <obj_property name="ElementShortName">SCENARIO_LENGTH</obj_property>
+      <obj_property name="ObjectShortName">SCENARIO_LENGTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/custom_tb/SCENARIO_ADDRESS" type="other">
+      <obj_property name="ElementShortName">SCENARIO_ADDRESS</obj_property>
+      <obj_property name="ObjectShortName">SCENARIO_ADDRESS</obj_property>
+   </wvobject>
+</wave_config>

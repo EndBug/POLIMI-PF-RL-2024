@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb4_func_synth" "xil_defaultlib.tb4" -log "elaborate.log" 

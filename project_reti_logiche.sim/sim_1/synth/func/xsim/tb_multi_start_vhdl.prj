@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"tb_multi_start_func_synth.vhd" \
+"../../../../../tb1/tb_multi_start.vhd" \
+
+# Do not sort compile order
+nosort

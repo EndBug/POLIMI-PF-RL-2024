@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "gen0_func_synth" "xil_defaultlib.gen0" -log "elaborate.log" 

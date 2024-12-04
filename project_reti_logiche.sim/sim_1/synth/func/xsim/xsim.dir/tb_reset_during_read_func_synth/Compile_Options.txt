@@ -1,0 +1,1 @@
+--incr --debug "typical" --relax --mt "2" -L "xil_defaultlib" -L "secureip" --snapshot "tb_reset_during_read_func_synth" "xil_defaultlib.tb_reset_during_read" -log "elaborate.log" 

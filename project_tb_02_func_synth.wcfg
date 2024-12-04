@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="project_tb_02_func_synth.wdb" id="1">
+         <top_modules>
+            <top_module name="project_tb_02" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="999,998 ps"></ZoomStartTime>
+      <ZoomEndTime time="1,000,001 ps"></ZoomEndTime>
+      <Cursor1Time time="1,000,000 ps"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="308"></NameColumnWidth>
+      <ValueColumnWidth column_width="443"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="55" />
+   <wvobject fp_name="/project_tb_02/tb_clk" type="logic">
+      <obj_property name="ElementShortName">tb_clk</obj_property>
+      <obj_property name="ObjectShortName">tb_clk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/tb_rst" type="logic">
+      <obj_property name="ElementShortName">tb_rst</obj_property>
+      <obj_property name="ObjectShortName">tb_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/tb_start" type="logic">
+      <obj_property name="ElementShortName">tb_start</obj_property>
+      <obj_property name="ObjectShortName">tb_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/tb_done" type="logic">
+      <obj_property name="ElementShortName">tb_done</obj_property>
+      <obj_property name="ObjectShortName">tb_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/tb_add" type="array">
+      <obj_property name="ElementShortName">tb_add[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_add[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/tb_k" type="array">
+      <obj_property name="ElementShortName">tb_k[9:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_k[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/tb_o_mem_addr" type="array">
+      <obj_property name="ElementShortName">tb_o_mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_o_mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/exc_o_mem_addr" type="array">
+      <obj_property name="ElementShortName">exc_o_mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">exc_o_mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/init_o_mem_addr" type="array">
+      <obj_property name="ElementShortName">init_o_mem_addr[15:0]</obj_property>
+      <obj_property name="ObjectShortName">init_o_mem_addr[15:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/tb_o_mem_data" type="array">
+      <obj_property name="ElementShortName">tb_o_mem_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_o_mem_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/exc_o_mem_data" type="array">
+      <obj_property name="ElementShortName">exc_o_mem_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">exc_o_mem_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/init_o_mem_data" type="array">
+      <obj_property name="ElementShortName">init_o_mem_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">init_o_mem_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/tb_i_mem_data" type="array">
+      <obj_property name="ElementShortName">tb_i_mem_data[7:0]</obj_property>
+      <obj_property name="ObjectShortName">tb_i_mem_data[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/tb_o_mem_we" type="logic">
+      <obj_property name="ElementShortName">tb_o_mem_we</obj_property>
+      <obj_property name="ObjectShortName">tb_o_mem_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/tb_o_mem_en" type="logic">
+      <obj_property name="ElementShortName">tb_o_mem_en</obj_property>
+      <obj_property name="ObjectShortName">tb_o_mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/exc_o_mem_we" type="logic">
+      <obj_property name="ElementShortName">exc_o_mem_we</obj_property>
+      <obj_property name="ObjectShortName">exc_o_mem_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/exc_o_mem_en" type="logic">
+      <obj_property name="ElementShortName">exc_o_mem_en</obj_property>
+      <obj_property name="ObjectShortName">exc_o_mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/init_o_mem_we" type="logic">
+      <obj_property name="ElementShortName">init_o_mem_we</obj_property>
+      <obj_property name="ObjectShortName">init_o_mem_we</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/init_o_mem_en" type="logic">
+      <obj_property name="ElementShortName">init_o_mem_en</obj_property>
+      <obj_property name="ObjectShortName">init_o_mem_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/scenario_input" type="array">
+      <obj_property name="ElementShortName">scenario_input[0:29]</obj_property>
+      <obj_property name="ObjectShortName">scenario_input[0:29]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/scenario_full" type="array">
+      <obj_property name="ElementShortName">scenario_full[0:29]</obj_property>
+      <obj_property name="ObjectShortName">scenario_full[0:29]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/memory_control" type="logic">
+      <obj_property name="ElementShortName">memory_control</obj_property>
+      <obj_property name="ObjectShortName">memory_control</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/CLOCK_PERIOD" type="other">
+      <obj_property name="ElementShortName">CLOCK_PERIOD</obj_property>
+      <obj_property name="ObjectShortName">CLOCK_PERIOD</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/SCENARIO_LENGTH" type="other">
+      <obj_property name="ElementShortName">SCENARIO_LENGTH</obj_property>
+      <obj_property name="ObjectShortName">SCENARIO_LENGTH</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/SCENARIO_ADDRESS" type="other">
+      <obj_property name="ElementShortName">SCENARIO_ADDRESS</obj_property>
+      <obj_property name="ObjectShortName">SCENARIO_ADDRESS</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5650]" type="array">
+      <obj_property name="ElementShortName">[5650][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5650][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5649]" type="array">
+      <obj_property name="ElementShortName">[5649][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5649][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5648]" type="array">
+      <obj_property name="ElementShortName">[5648][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5648][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5647]" type="array">
+      <obj_property name="ElementShortName">[5647][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5647][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5646]" type="array">
+      <obj_property name="ElementShortName">[5646][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5646][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5645]" type="array">
+      <obj_property name="ElementShortName">[5645][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5645][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5644]" type="array">
+      <obj_property name="ElementShortName">[5644][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5644][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5643]" type="array">
+      <obj_property name="ElementShortName">[5643][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5643][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5642]" type="array">
+      <obj_property name="ElementShortName">[5642][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5642][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5641]" type="array">
+      <obj_property name="ElementShortName">[5641][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5641][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5640]" type="array">
+      <obj_property name="ElementShortName">[5640][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5640][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5639]" type="array">
+      <obj_property name="ElementShortName">[5639][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5639][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5638]" type="array">
+      <obj_property name="ElementShortName">[5638][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5638][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5637]" type="array">
+      <obj_property name="ElementShortName">[5637][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5637][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5636]" type="array">
+      <obj_property name="ElementShortName">[5636][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5636][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5635]" type="array">
+      <obj_property name="ElementShortName">[5635][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5635][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5634]" type="array">
+      <obj_property name="ElementShortName">[5634][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5634][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5633]" type="array">
+      <obj_property name="ElementShortName">[5633][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5633][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5632]" type="array">
+      <obj_property name="ElementShortName">[5632][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5632][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5631]" type="array">
+      <obj_property name="ElementShortName">[5631][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5631][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5630]" type="array">
+      <obj_property name="ElementShortName">[5630][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5630][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5629]" type="array">
+      <obj_property name="ElementShortName">[5629][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5629][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5628]" type="array">
+      <obj_property name="ElementShortName">[5628][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5628][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5627]" type="array">
+      <obj_property name="ElementShortName">[5627][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5627][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5626]" type="array">
+      <obj_property name="ElementShortName">[5626][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5626][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5625]" type="array">
+      <obj_property name="ElementShortName">[5625][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5625][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5624]" type="array">
+      <obj_property name="ElementShortName">[5624][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5624][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5623]" type="array">
+      <obj_property name="ElementShortName">[5623][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5623][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5622]" type="array">
+      <obj_property name="ElementShortName">[5622][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5622][7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/project_tb_02/RAM[5621]" type="array">
+      <obj_property name="ElementShortName">[5621][7:0]</obj_property>
+      <obj_property name="ObjectShortName">[5621][7:0]</obj_property>
+   </wvobject>
+</wave_config>
